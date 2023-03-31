@@ -12,7 +12,7 @@ body {
 }
 
 .jumbotron {
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .carousel-inner img {
@@ -33,7 +33,7 @@ nav {
   margin-top: -20px !important;
   margin-bottom: 2vh !important;
   margin: 0 auto;
-  width: 50%;
+  width: 5vh !important;
   opacity: 40%;
   margin-top: 10px;
   border-radius: 0px 0px 20px 20px !important;
@@ -48,7 +48,7 @@ nav {
   display: none;
   margin-top: -2px !important;
   margin: 0 auto;
-  width: 50%;
+  width: 5vh !important;
   opacity: 40%;
   margin-top: 10px;
   border-radius: 0px 0px 20px 20px !important;
@@ -92,6 +92,12 @@ nav {
   background-color: #f1f1f1;
 }
 
+.teamCard img { 
+  min-height: 40vh;
+  max-width: 40vh;
+  max-height: 40vh;
+}
+
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {
   .column {
@@ -119,4 +125,22 @@ nav {
   nav {
     min-height: auto !important;
   }
+}
+
+p {
+  text-align: justify;
+}
+
+#contact{
+  background-color: #87CEFA	;
+  padding: 1vh;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
+}
+
+#email-link {
+  text-decoration: none !important;
+  color: #000;
 }
