@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark nav-color justify-content-center ps-5">
+    <nav id="navbar"class="navbar navbar-expand-lg navbar-dark nav-color justify-content-center ps-5">
         <a class="navbar-brand" href="#"><img src="assets/img/ConstruCode.png" width="100px" height="50px" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,15 +22,15 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#">Clientes</a>
-                <a class="nav-link" href="#">Time</a>
-                <a class="nav-link" href="#">Contato</a>
+                <a class="nav-link active" aria-current="page" href="#navbar">Home</a>
+                <a class="nav-link" href="#customers">Clientes</a>
+                <a class="nav-link" href="#team">Time</a>
+                <a class="nav-link" href="#contact">Contato</a>
             </div>
         </div>
         <div class="h4 teste-pos text-white me-5">Transformando ideias em realidade com a nossa tecnologia!</div>
     </nav>
-    <section class="initialPage">
+    <section id="home" class="initialPage">
         <div class="container">
             <div class="row">
                 <div class="de-maluco col-lg-6 mt-5">
@@ -70,7 +70,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4 offset-md-1">
-                        <a href="#section">
+                        <a href="#customers">
                             <img src="assets/img/scroll.png" width="66px" alt="">
                         </a>
                     </div>
@@ -105,7 +105,7 @@
         </div>
     </section>
 
-    <section id="section" class="pt-5 text-white pb-2" style="background-color: dimgray;">
+    <section id="customers" class="pt-5 text-white pb-2" style="background-color: dimgray;">
         <h1>Clientes</h1>
         <div class="clients my-5 ">
             <img src="assets/img/orcafacil.png" class="mb-5" alt="">
@@ -120,7 +120,7 @@
         </div>
     </section>
 
-    <div class="container text-center">
+    <div class="container text-center" id="team">
         <h1 class="mb-4 mt-4">Time de desenvolvimento</h1>
         <div id="devs" class="row mb-5 justify-content-center">
 
@@ -189,16 +189,16 @@
     <footer class="h5 bg-dark pb-1 pt-5">
         <ul class="nav justify-content-center pb-3 mt-auto">
             <li class="nav-item">
-                <a href="#" class="nav-link px-2 text-muted">Home</a>
+                <a href="#navbar" class="nav-link px-2 text-muted">Home</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link px-2 text-muted">Clientes</a>
+                <a href="#customers" class="nav-link px-2 text-muted">Clientes</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link px-2 text-muted">Time</a>
+                <a href="#team" class="nav-link px-2 text-muted">Time</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link px-2 text-muted">Contato</a>
+                <a href="#contact" class="nav-link px-2 text-muted">Contato</a>
             </li>
         </ul>
         <p class="text-center text-muted">© 2023 P.K, Inc</p>
