@@ -64,6 +64,9 @@ nav {
   min-height: 192px;
   text-align: center;
 }
+.card{
+  margin-bottom: 10px;
+}
 #btn-hidden-carousel {
   margin-top: -20px !important;
   margin-bottom: 2vh !important;
@@ -173,4 +176,8 @@ nav {
 
 footer{
   max-height: 350px;
+}
+#silas{
+  margin-left: 15px;
+  margin-right: 15px;
 }
