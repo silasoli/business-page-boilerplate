@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body {
+  text-align: center !important;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #000000;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+.jumbotron{
+    height: 850px;
+    background-color: white;
+}
+.nav-color{
+  background-color: #004d9b;
+  border-bottom: 1px solid black;
+}
+.teste-pos{
+  margin-left: auto;
+}
+.sub-title{
+  color: #333333;
+  opacity: 0.7;
+  letter-spacing: 2px;
+  font-size: 15px;
+  line-height: 23px;
+  font-family: 'Montserrat', sans-serif;
+}
+.de-maluco{
+  border: 3px solid white;
+  border-radius: 30px;
+  padding: 10px;
+  background: rgba(0, 0, 0, .7);
+}
+
+.initial-page{
+  background-image: url("../img/background.jpg");
+  height: 90vh;
+  background-size: cover;
+  color: white;
+  background-attachment: fixed;
+}
+.stack-box {
+ background-color: #d9d9d957;
+ min-height: 180px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 50vh !important;
+}
+
+#carousel {
+  margin-top: 3vh !important;
+  margin-bottom: 3vh !important;
+}
+
+nav {
+  min-height: 100px !important;
+}
+.card-text{
+  min-height: 192px;
+  text-align: center;
+}
+.card{
+  margin-bottom: 10px;
+}
+
+#btn-hidden-carousel:hover {
+  opacity: 100%;
+}
+
+.card-img-top{
+  height: 357.5px;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  #teamSection {
+    display: initial;  
+  }
+  nav {
+    min-height: auto !important;
+  }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  #teamSection {
+    display: initial;  
+  }
+  nav {
+    min-height: auto !important;
+  }
+}
+
+#customers { 
+  background-image: url("../img/background-client.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.clients{
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 20rem;
+  padding: 20px;
+  text-align: left;
+}
+
+.clients img{
+  width: 100%;
+}
+
+#email-link {
+  text-decoration: none !important;
+  color: #000;
+}
+
+
+.stack-box .row img {
+  width: 100%;
+  max-width: 100px; 
+  height: auto; 
+  margin: 0 10px; 
+  transition: 0.5s;
+}
+.stack-box .row img:hover {
+  opacity: 1; 
+  transition: 0.5s;
+  transform: scale(1.25);
+}
+#node{
+  width: 70px;
+  height: 40px;
+}
+#nest{
+  width: 100px;
+  height: 75px;
+}
+#react{
+  width: 100px;
+  height: 35px;
+}
+
+footer{
+  max-height: 350px;
+}
+#silas{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#contact-daddy {
+  background-color: #87cefa;
+}
+#contact {
+  background-color: #87cefa;
+
+}
+#section h1{
+  font-weight: 900;
+}
+.form-data{
+  max-width: 450px;
+}
