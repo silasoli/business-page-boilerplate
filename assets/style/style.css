@@ -67,36 +67,10 @@ nav {
 .card{
   margin-bottom: 10px;
 }
-#btn-hidden-carousel {
-  margin-top: -20px !important;
-  margin-bottom: 2vh !important;
-  margin: 0 auto;
-  width: 5vh !important;
-  opacity: 40%;
-  margin-top: 10px;
-  border-radius: 0px 0px 20px 20px !important;
-  width: 15vh;
-}
 
 #btn-hidden-carousel:hover {
   opacity: 100%;
 }
-
-#btn-show-carousel {
-  display: none;
-  margin-top: -2px !important;
-  margin: 0 auto;
-  width: 5vh !important;
-  opacity: 40%;
-  margin-top: 10px;
-  border-radius: 0px 0px 20px 20px !important;
-  width: 15vh;
-}
-
-#btn-show-carousel:hover {
-  opacity: 100%;
-}
-
 
 .card-img-top{
   height: 357.5px;
@@ -129,17 +103,6 @@ nav {
   nav {
     min-height: auto !important;
   }
-}
-
-
-
-#contact{
-  background-color: #87CEFA	;
-  padding: 1vh;
-  display: flex; 
-  flex-direction: column; 
-  justify-content: center; 
-  align-items: center;
 }
 
 #email-link {
@@ -179,4 +142,12 @@ footer{
 #silas{
   margin-left: 15px;
   margin-right: 15px;
+}
+
+#contact-daddy {
+  background-color: #87cefa;
+}
+
+#contact {
+  background-color: #87cefa;
 }
