@@ -36,7 +36,7 @@ body {
   padding: 10px;
 }
 .initialPage{
-  background-image: url(/assets/img/background.jpg);
+  background-image: url("../img/background.jpg");
   height: 90vh;
   background-size: cover;
   color: white;
