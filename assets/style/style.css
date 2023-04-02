@@ -13,7 +13,7 @@ body {
 }
 .jumbotron{
     height: 850px;
-    background-color: #87cefa;
+    background-color: white;
 }
 .nav-color{
   background-color: #004d9b;
@@ -105,6 +105,18 @@ nav {
   }
 }
 
+.clients{
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 20rem;
+  padding: 20px;
+  text-align: left;
+}
+
+.clients img{
+  width: 100%;
+}
+
 #email-link {
   text-decoration: none !important;
   color: #000;
@@ -147,7 +159,9 @@ footer{
 #contact-daddy {
   background-color: #87cefa;
 }
-
 #contact {
   background-color: #87cefa;
+}
+#section h1{
+  font-weight: 900;
 }
