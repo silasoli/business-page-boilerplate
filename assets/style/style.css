@@ -34,8 +34,10 @@ body {
   border: 3px solid white;
   border-radius: 30px;
   padding: 10px;
+  background: rgba(0, 0, 0, .7);
 }
-.initialPage{
+
+.initial-page{
   background-image: url("../img/background.jpg");
   height: 90vh;
   background-size: cover;
