@@ -105,6 +105,12 @@ nav {
   }
 }
 
+#customers { 
+  background-image: url("../img/background-client.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .clients{
   border: 1px solid black;
   margin: 0 auto;
