@@ -161,7 +161,11 @@ footer{
 }
 #contact {
   background-color: #87cefa;
+
 }
 #section h1{
   font-weight: 900;
+}
+.form-data{
+  max-width: 450px;
 }
