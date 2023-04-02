@@ -1,28 +1,29 @@
-function hiddenCarousel() {
-  const carousel = window.document.getElementById("carousel");
-  carousel.style.display = "none";
-  const btnHiddenCarousel = window.document.getElementById(
-    "btn-hidden-carousel"
-  );
-  btnHiddenCarousel.style.display = "none";
-  const showCarousel = window.document.getElementById("btn-show-carousel");
-  showCarousel.style.display = "inline-block";
+function validateEmail(email) {
+  const regex = /\S+@\S+\.\S+/;
+  return regex.test(email);
 }
 
-function showCarousel() {
-  const carousel = window.document.getElementById("carousel");
-  carousel.style.display = "block";
-  const showCarousel = window.document.getElementById("btn-show-carousel");
-  showCarousel.style.display = "none";
-  const btnHiddenCarousel = window.document.getElementById(
-    "btn-hidden-carousel"
-  );
-  btnHiddenCarousel.style.display = "inline-block";
+function alertResult(icon, title) {
+  return Swal.fire({
+    icon,
+    title,
+  });
 }
 
-// function changeTextByID(id, text) {
-//     const element = window.document.getElementById(id);
-//     element.textContent = text;
-// }
+function sendEmail() {
+  const nameCostumers = window.document.getElementById("name-input");
+  const contactCostumers = window.document.getElementById("textarea-input");
+  const emailCostumers = window.document.getElementById("email-input");
 
-// function
+  if (!emailCostumers.value || !nameCostumers.value || !contactCostumers.value)
+    return alertResult("error", "Preencha todos os campos!");
+
+  const validate = validateEmail(emailCostumers.value);
+  if (!validate) return alertResult("error", "Email inválido.");
+
+  alertResult("success", "Email enviado.");
+
+  emailCostumers.value = "";
+  nameCostumers.value = "";
+  contactCostumers.value = "";
+}
